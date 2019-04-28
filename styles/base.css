@@ -1,0 +1,9 @@
+.container{
+    max-width: 1600px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    background-color: #f7f7f7;
+}
