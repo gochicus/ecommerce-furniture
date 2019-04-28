@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    background-color: #f0f0f0;
+    padding-left: 65px;
+    padding-top: 63px;
+    justify-content: space-between;
+}
+.nav {
+    margin-right: 167px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.navItem {
+    padding-left: 20px;
+
+
+}
+.navItem-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Montserrat;
+}

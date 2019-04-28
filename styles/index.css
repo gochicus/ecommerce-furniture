@@ -4,6 +4,14 @@
 @import url("./hot.css");
 @import url("./promo.css");
 @import url("./featured.css");
+@import url("./header.css");
+@import url("./hero.css");
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Monserrat/Montserrat-Regular.ttf");
+    src: url("../fonts/Monserrat/Montserrat-Thin.ttf");
+    src: url("../fonts/Monserrat/Montserrat-Bold.ttf");
 
+}
 
