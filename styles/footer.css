@@ -1,0 +1,17 @@
+.footer {
+    background-color: #f7f7f7;
+    height: 184px;
+    font-family: Montserrat;
+}
+.footer-block {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.copy {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}

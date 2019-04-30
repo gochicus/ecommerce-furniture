@@ -1,0 +1,26 @@
+.exclusive-container {
+    display: flex;
+
+
+}
+.headerCTA {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:52px;
+    width: 374px;
+}
+#product-chair {
+    background-image: url("../img/exclusive/promo-img.png");
+    width: 683px;
+    height: 683px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#product-redchair {
+    background-image: url("../img/exclusive/promo-img1.png");
+    width: 683px;
+    height: 683px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

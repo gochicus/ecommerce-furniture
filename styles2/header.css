@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-right: 127px;
+
+}
+.navItem {
+    padding-left: 20px;
+
+
+}
+.navItem-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+.headerLogo {
+    padding-top: 63px;
+    padding-left: 98px;
+}

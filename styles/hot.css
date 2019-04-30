@@ -1,3 +1,34 @@
 .hot {
     background-color: #dce4f0;
+    background-image: url("../img/hot/slider.png");
+    background-position: left;
+    background-size: initial;
+    background-repeat: no-repeat;
+    min-height: 800px;
+
+}
+.dots-hot {
+    display: flex;
+    margin-bottom: 19px;
+    padding-left: 540px;
+    position: relative;
+    bottom: -235px;
+
+}
+.headerCtaHot {
+    width: 458px;
+    padding-left: 48px;
+    padding-top:300px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.headerCtaHot:nth-child(2) {
+    color: #e53935;
+    font-family: "Montserrat - Thin";
+    font-size: 45px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
 }
