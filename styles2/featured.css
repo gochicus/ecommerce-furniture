@@ -1,0 +1,55 @@
+.featured {
+    background-color: white;
+    margin: auto;
+}
+.featured-headers {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    align-items: flex-end;
+    margin: auto;
+}
+.featured-products {
+    display: flex;
+    padding-left: 20px;
+    margin: auto;
+}
+.productsItem {
+    padding: 10px;
+}
+.back-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    width: 274px;
+    background-image: url("../img/featured/back.png");
+    border: 1px solid #fbfcfc;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.91px;
+}
+.featured-headers-text {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.featured-link {
+    width: 158px;
+    height: 34px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "explore al" */
+    color: #212121;
+}

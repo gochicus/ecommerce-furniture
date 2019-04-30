@@ -1,0 +1,103 @@
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #dce4f0;
+}
+.dot:nth-child(2) {
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+   margin: 0 10px;
+}
+
+.hero {
+    background-image: url("../img/header/head-background.png");
+    background-size: contain;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.dots {
+    display:flex;
+    align-items: baseline;
+   padding-bottom: 19px;
+    position: relative;
+    top: 150px;
+    left:50%;
+}
+.headerCta {
+    width: 400px;
+    padding-left: 48px;
+    padding-top: 175px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.CtaDescription {
+    font-family: Montserrat;
+
+}
+.text-head {
+    width: 109px;
+    height: 13px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "TRENDING" */
+    color: #43a047;
+    letter-spacing: 1.8px;
+    padding-bottom: 5px;
+}
+.text-call {
+    /* Style for "Fishnet Ch" */
+    width: 435px;
+    height: 43px;
+    color: #212121;
+    font-family: "Montserrat - Thin";
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.text-main {
+    width: 400px;
+    height: 70px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.order {
+    width: 212px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 31px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 31px;
+}
+.arrow {
+    padding-left: 10px;
+}
+.CtaDescription {
+    padding-bottom: 15px;
+}
