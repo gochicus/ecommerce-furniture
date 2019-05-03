@@ -1,0 +1,62 @@
+.hot {
+    background-color: white;
+    background-image: url("../img/hot/slider.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 800px;
+
+}
+.dots-hot {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+    padding-left: 540px;
+    position: relative;
+    bottom: -235px;
+
+}
+.headerCtaHot {
+    width: 458px;
+    padding-left: 106px;
+    padding-top:300px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.headerCtaHot:nth-child(2) {
+    color: #e53935;
+    font-family: "Montserrat - Thin";
+    font-size: 45px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+.dots-hot {
+    display:flex;
+    align-items: center;
+    position: relative;
+    top: 220px;
+    right:250px;
+}
+.text-hot-hrader {
+    height: 24px;
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "Hot deal" */
+    letter-spacing: 1.8px;
+}
+.text-hot-name {
+    width: 225px;
+    height: 14px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 100;
+    text-transform: uppercase;
+}

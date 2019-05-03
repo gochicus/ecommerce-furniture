@@ -1,0 +1,122 @@
+.footer {
+    background-color: #f7f7f7;
+    min-height: 240px;
+    font-family: Montserrat;
+}
+.footer-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 150px;
+    background-color: #f7f7f7;
+}
+.copy {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-around;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+}
+.useinfo-container {
+    display:flex;
+    max-width: 400px;
+}
+.foorers-text-header {
+    /* Style for "Let’s Stay" */
+    width: 260px;
+    height: 40px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "L, et’s St" */
+    letter-spacing: 1.8px;
+}
+.text-useful-info {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 90px;
+    /* Style for "Sales term" */;
+    height: 62px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+}
+.text-contact {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90px;
+    width: 221px;
+    height: 102px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 90px;
+}
+.mail {
+    min-height: 17px;
+   min-width:309px;
+    /*background-image: url("../img/footer/bird.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*background-position: right;*/
+    padding: 5px;
+    padding-left: 10px;
+    border-right: none;
+}
+.subscription-call {
+    /* Style for "Suscribe t" */
+    width: 363px;
+    height: 60px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.email-container {
+   display: flex;
+    align-items: flex-end;
+}
+.bird {
+    max-width: 22px;
+    background-color: white;
+    min-height: 15px;
+    padding: 3px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    border-left: none;
+}
+.social {
+    color:#6c6c6c;
+    border-radius: 50%;
+}
