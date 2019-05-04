@@ -1,0 +1,46 @@
+.furniture-block {
+    display: flex;
+    flex-direction: column;
+}
+.merchendise-navigation {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 500px;
+}
+.furniture-catalog {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.furniture {
+    width: 370px;
+    height: 370px;
+    padding-top: 45px;
+}
+.after-catalog {
+    display: flex;
+    height: 100px;
+    align-items: flex-end;
+}
+.exclusive-container-products {
+    display: flex;
+    max-height: 600px;
+    max-width: 1200px;
+}
+.merchendise {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    letter-spacing: 0.8px;
+}
+.active-m {
+    border-bottom: 4px solid #6c6c6c;;
+    padding-bottom: 4px;
+}
+.active-mb {
+    color:black;
+    border-bottom: 4px solid black;
+}
