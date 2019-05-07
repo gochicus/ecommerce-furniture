@@ -14,3 +14,35 @@ a {
     text-decoration: none;
     color:inherit;
 }
+.flex {
+    display: flex;
+}
+
+.flex-inline {
+    display: inline-flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justifyContent-center {
+    justify-content: center;
+}
+.justifyContent-start {
+    justify-content: flex-start;
+}
+
+.alignItems-center {
+    align-items: center;
+}
+.justifyContent-space-around {
+    justify-content: space-around;
+}
